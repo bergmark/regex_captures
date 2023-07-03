@@ -4,6 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Adam Bergmark <adam@bergmark.nl>"]
 license = "MIT OR Apache-2.0"
+description = "Helper for extracting and converting regex capture groups"
+homepage = "https://github.com/bergmark/regex_captures"
+repository = "https://github.com/bergmark/regex_captures"
+documentation = "https://docs.rs/regex_captures"
+readme = "README.md"
 
 [dependencies]
 anyhow = "1"
