@@ -1,6 +1,6 @@
 [package]
 name = "regex_captures"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 authors = ["Adam Bergmark <adam@bergmark.nl>"]
 license = "MIT OR Apache-2.0"
@@ -11,5 +11,8 @@ documentation = "https://docs.rs/regex_captures"
 readme = "README.md"
 
 [dependencies]
-anyhow = "1"
 regex = "1"
+thiserror = "1.0.48"
+
+[dev-dependencies]
+lazy-regex = "3.0.2"
